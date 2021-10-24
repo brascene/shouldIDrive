@@ -1,4 +1,4 @@
-(function shouldIDriveTomorrow(myRegTable="E96-T-234"){
+(function shouldIDriveTomorrow(myRegTable="your registration"){
 	var initialDay = 24;
 	var currentDay = new Date().getDate();
 	var result = myRegTable.split("-")[2].split("")[2]%2===0;
